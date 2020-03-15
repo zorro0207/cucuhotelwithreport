@@ -11,3 +11,4 @@ And user enters the first name, last name, billing address, credit card no , cre
 |praveena|zorro|greens|1234567891012131|Master Card|February|2014|123|
 
 Then user should click the login button
+

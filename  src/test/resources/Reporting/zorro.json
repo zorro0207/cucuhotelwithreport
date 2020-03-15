@@ -1,0 +1,105 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "books the hotel",
+        "description": "",
+        "id": "verify-the-ada-hotel-details;books-the-hotel",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 59611562526,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the adahotel page enters the user name ,password and clicks login",
+            "match": {
+              "location": "StepDef.user_is_on_the_adahotel_page_enters_the_user_name_password_and_clicks_login(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "summaemail",
+                  "12345qwerty"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 18520179732,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters the location ,hotel name, room type,  noORooms, NoOfAdults, NoOfChild and clicks search",
+            "match": {
+              "location": "StepDef.user_enters_the_location_hotel_name_room_type_noORooms_NoOfAdults_NoOfChild_and_clicks_search(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Melbourne",
+                  "Hotel Sunshine",
+                  "Double",
+                  "4 - Four",
+                  "4 - Four",
+                  "4 - Four"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12113547217,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters the first name, last name, billing address, credit card no , credit card type an ccv",
+            "match": {
+              "location": "StepDef.user_enters_the_first_name_last_name_billing_address_credit_card_no_credit_card_type_an_ccv(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "praveena",
+                  "zorro",
+                  "greens",
+                  "1234567891012131",
+                  "Master Card",
+                  "February",
+                  "2014",
+                  "123"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9416042816,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should click the login button",
+            "match": {
+              "location": "StepDef.user_should_click_the_login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "verify the ada hotel details",
+    "description": "",
+    "id": "verify-the-ada-hotel-details",
+    "keyword": "Feature",
+    "uri": "src/test/resources/feature/feature.feature",
+    "tags": []
+  }
+]
